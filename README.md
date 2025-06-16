@@ -31,7 +31,7 @@ git clone https://github.com/rashedulalam46/server-side-validation.git
 cd server-side-validation
 ```
 
-## Run the API
+## ▶️ Run the Project
 
 Open your terminal and run the following command to restore depedencies, build & run the project:
 
