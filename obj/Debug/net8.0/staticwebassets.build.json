@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "idfho65jeUgesKEDKcqoS2h1dvVLRpu96R4Cl3cZcq4=",
+  "Source": "ServerSideValidation",
+  "BasePath": "_content/ServerSideValidation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
