@@ -31,3 +31,4 @@
 /Users/rashedulalam/My Files/Projects/Github/ServerSideValidation/ServerSideValidation/obj/Debug/net8.0/ServerSideValidation.pdb
 /Users/rashedulalam/My Files/Projects/Github/ServerSideValidation/ServerSideValidation/obj/Debug/net8.0/ServerSideValidation.genruntimeconfig.cache
 /Users/rashedulalam/My Files/Projects/Github/ServerSideValidation/ServerSideValidation/obj/Debug/net8.0/ref/ServerSideValidation.dll
+/Users/rashedulalam/My Files/Projects/Github/ServerSideValidation/ServerSideValidation/obj/Debug/net8.0/ServerSideValidation.sourcelink.json
