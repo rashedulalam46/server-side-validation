@@ -29,5 +29,43 @@ Open your terminal and run the following command:
 ```bash
 git clone https://github.com/rashedulalam46/server-side-validation.git
 cd server-side-validation
+```
+
+## Run the API
+
+Open your terminal and run the following command to restore depedencies, build & run the project:
+
+```bash
+dotnet restore
+dotnet build
+dotnet run
+```
+
+The API will start on http://localhost:5000 or https://localhost:5001.
+
+## 🔍 Test the API with Postman
+
+Open Postman and create a POST request to:
+
+```bash
+https://localhost:5103/api/users
+```
+
+In the Body, select raw and JSON, then use sample input like:
+
+```bash
+{
+  "userId": 101,
+  "userName": "rashed",
+  "email": "rashed@gmail.com",
+  "age": 30,
+  "phoneNumber": "123",
+  "website": "https://domain.com",
+  "creditCard": "4111111111111111",
+  "password": "123456",
+  "confirmPassword": "123456"
+}
+```
+
 
 
