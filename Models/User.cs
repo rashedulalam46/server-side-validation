@@ -8,7 +8,10 @@ namespace ServerSideValidation.Models
         [Required(ErrorMessage = "User ID is required.")]
         [Range(1, 1000, ErrorMessage = "User ID must be a positive integer.")]
         public int UserId { get; set; }
-        public string Username { get; set; }
+
+        [Required(ErrorMessage = "Username is required.")]
+        [StringLength(40, ErrorMessage = "Username must be between 5 and 40 characters long.", MinimumLength = 5)]
+        public string Username { get; set;
 
         [Required]
         [EmailAddress(ErrorMessage = "Invalid email address.")]
