@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServerSideValidation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+667e1e12d8cf0234a1503242163a24da98b7f38a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2e88401c05413281016b1f6c223b1f65c7c6d85")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServerSideValidation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServerSideValidation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

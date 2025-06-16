@@ -30,7 +30,7 @@ namespace ServerSideValidation.Controllers
         [HttpGet("{id}")]
         public ActionResult<User> GetUserById(int id)
         {
-            var user = Users.Find(u => u.Id == id);
+            var user = Users.Find(u => u.UserId == id);
             if (user == null)
             {
                 return NotFound();
