@@ -57,7 +57,7 @@ In the Body, select raw and JSON, then use sample input like:
 {
   "userId": 101,
   "userName": "rashed",
-  "email": "rashed@gmail",
+  "email": "rashed",
   "age": 12,
   "phoneNumber": "123",
   "website": "https://domain.com",
@@ -73,10 +73,18 @@ If validation fails, you’ll receive a 400 Bad Request response like:
 
 ```bash
 {
-  "errors": {
-    "Email": ["The Email field is not a valid e-mail address."],
-    "Age": ["Age must be 18 or older."]
-  }
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "Age": [
+            "Age must be between 18 and 100."
+        ],
+        "Email": [
+            "Invalid email address."
+        ]
+    },
+    "traceId": "00-0722a321624d5729c44ab60cbb1fa800-d7b0c69ba552199f-00"
 }
 ```
 
@@ -87,7 +95,7 @@ If validation passes, you’ll get a 200 OK response or a confirmation message d
 ```bash
 server-side-validation/
 ├── Controllers/
-│   └── UsersController.cs
+│   └── UserController.cs
 ├── Models/
 │   └── User.cs
 ├── Program.cs
