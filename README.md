@@ -1,6 +1,13 @@
 # Server-Side Validation
 
-This project demonstrates how to implement **server-side validation** in a web API using ASP.NET Core. It ensures that data submitted by the client meets the required rules and constraints before it is processed.
+A sample ASP.NET Core Web API project demonstrating how to implement server-side validation using data annotations. It validates user input and returns clear error messages to ensure data integrity before processing.
+
+## 🚀 Features
+
+- Clean ASP.NET Core Web API architecture
+- Model validation using data annotations
+- Proper HTTP responses for validation errors
+- Ready-to-use Postman collection for testing
 
 ## 🔗 GitHub Repository
 
@@ -8,7 +15,7 @@ This project demonstrates how to implement **server-side validation** in a web A
 
 ---
 
-## 📦 Getting Started
+## 🛠️ Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
 
