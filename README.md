@@ -101,9 +101,7 @@ Pull requests are welcome! If you find bugs or have suggestions, feel free to op
 This project is licensed under the MIT License.
 
 ## 👤 Author
-
-Rashedul Alam
-GitHub: @rashedulalam46
+[Rashedul Alam](https://github.com/rashedulalam46)
 
 
 
