@@ -57,8 +57,8 @@ In the Body, select raw and JSON, then use sample input like:
 {
   "userId": 101,
   "userName": "rashed",
-  "email": "rashed@gmail.com",
-  "age": 30,
+  "email": "rashed@gmail",
+  "age": 12,
   "phoneNumber": "123",
   "website": "https://domain.com",
   "creditCard": "4111111111111111",
@@ -66,6 +66,45 @@ In the Body, select raw and JSON, then use sample input like:
   "confirmPassword": "123456"
 }
 ```
+
+## ✅ Expected Output
+
+If validation fails, you’ll receive a 400 Bad Request response like:
+
+```bash
+{
+  "errors": {
+    "Email": ["The Email field is not a valid e-mail address."],
+    "Age": ["Age must be 18 or older."]
+  }
+}
+```
+
+If validation passes, you’ll get a 200 OK response or a confirmation message depending on your controller logic.
+
+## 📁 Project Structure
+
+```bash
+server-side-validation/
+├── Controllers/
+│   └── UsersController.cs
+├── Models/
+│   └── User.cs
+├── Program.cs
+└── server-side-validation.csproj
+```
+
+## 🤝 Contributing
+Pull requests are welcome! If you find bugs or have suggestions, feel free to open an issue.
+
+## 📄 License
+This project is licensed under the MIT License.
+
+## 👤 Author
+Rashedul Alam
+GitHub: [@rashedulalam46] (https://github.com/rashedulalam46)
+
+
 
 
 
